@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient( #f6d365, #bb8c53); 
+    min-height: 100vh;
+    color: white;
+    font-family: "Merriweather", sans-serif;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header span {
+    font-size: 2.5rem;
+} 
+
+header span i {
+    padding: 0.5rem;
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+input::placeholder {
+    font-size: 1.5rem;
+}
+
+form button {
+    color: #d88771;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #d88771;
+    color: white;
+}
+
+.deedee-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.deedee-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.deedee-todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+}
